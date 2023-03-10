@@ -1,6 +1,8 @@
 // const express = require('express'); // module chargé 
 // const app = express(); // Instance du serveur web
 // const port = 3000; // port du serveur web
+/* eslint-env node */
+
 
 
 // function main ()
@@ -32,6 +34,7 @@ const app = express();
 const port = 3000;
 
 // Lancer le serveur et afficher un message dans la console pour indiquer que le serveur est en cours d'exécution
-app.listen(port, () => {
-  console.log(`Le serveur est en cours d'exécution sur le port ${port}.`);
+app.listen(port, () => 
+{
+    console.log(`Le serveur est en cours d'exécution sur le port ${port}.`);
 });
