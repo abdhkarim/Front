@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maxime le Forestier</title>
+	<title>Liste des clients</title>
 </head>
 <body>
-    <div>
-        C'est une maison bleue, adossée à la colline <br> on y venait a pied
-    </div>
+	<h1>Liste des clients</h1>
+	<table>
+		<tr>
+			<th>Id</th>
+			<th>Prénom</th>
+			<th>Nom</th>
+			<th>Email</th>
+			<th>Société</th>
+			<th>Pays</th>
+			<th>Date de création</th>
+			<th>Actions</th>
+		</tr>
+		<!-- Les clients seront ajoutés dynamiquement ici via JavaScript -->
+	</table>
+	<button onclick="window.location.href='creation.html'">Ajouter un client</button>
+	<script src="script.js"></script>
 </body>
 </html>
